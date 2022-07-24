@@ -1,0 +1,146 @@
+/* MEDIA */
+
+.subCover {
+    display: none;
+  }
+  
+  header {
+    height: 130px;
+  }
+  
+  header .gnb h1 {
+    text-align: center;
+  }
+  
+  header .logo a {
+    background: url(../../winwiz-project/images/common/top_logoW.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
+  
+  
+  header .gnb-list {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0%;
+    visibility: hidden;
+    height: 100vh;
+    padding-top: 130px;
+    transition: width 0.5s;
+  }
+  
+  header .gnb-list > li {
+    border-bottom: 1px solid #e5e5e5;
+    height: auto;
+  }
+  header .gnb-list > li:first-child {
+    border-top: 1px solid #e5e5e5;
+  }
+  
+  header .gnb-list .tit {
+    justify-content: left;
+    padding-left: 30px;
+    box-sizing: border-box;
+  }
+  
+  header .gnb-list .tit span {
+    line-height: 90px;
+  }
+  
+  header .sub-gnb {
+    margin-top: 0;
+    display: none;
+    visibility: visible;
+  }
+  
+  
+  header .sub-gnb li {
+    margin-left: 30px;
+  
+  }
+  
+  header .sub-gnb li a {
+    font-size: 16px;
+    color: #518EF1;
+  }
+  
+  /* .open {
+    display: block;
+  } */
+  
+  .sub-gnb.open { 
+    display: block;
+  }
+  
+  
+  
+  #menu-btn {
+    position: absolute;
+    top: 48px;
+    left: 30px;
+    cursor: pointer;
+    z-index: 100;
+  }
+  
+  #menu-btn i {
+    display: block;
+    color: #fff;
+  }
+  
+  #close-btn {
+    opacity: 0;
+    cursor: pointer;
+    z-index: 100;
+    visibility: hidden;
+    transition: opacity 0.5s;
+    display: block;
+  }
+  #close-btn i {
+    color: #fff;
+  }
+  
+  #close-btn.show {
+    opacity: 1;
+    visibility: visible;
+    position: absolute;
+    top: 48px;
+    left: 55%;
+  }
+  
+  /* #menu-btn.show {
+    visibility: visible;
+  } */
+  
+  .gnb-list.menuOn {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 70%;
+    background: rgb(63, 135, 210);
+    visibility: visible;
+  }
+  
+  .sub-gnb {
+    background: rgb(13, 80, 150);
+    visibility: hidden;
+  }
+
+  .contentsListTitle_des {
+    width: 100%;
+  }
+  
+  .contentsListImg {
+    width: 50%;
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  figure img{
+    width: 15%;
+    margin-right: 10px;
+    margin-bottom: 150px;
+  }

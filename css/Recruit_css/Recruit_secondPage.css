@@ -1,0 +1,149 @@
+@import url(../reset.css);
+@import url(../header.css);
+@import url(../footer.css);
+
+.topImg {
+  background: url(../../images/common/companyInfo.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  text-indent: -9999px;
+  background-position: center;
+}
+
+.contents .inner {
+  max-width: 1500px;
+  margin: 0 auto; 
+}
+.contentsTitle {
+  font-size: 38px;
+  font-weight: 700;
+  margin: 60px 0;
+  text-align: center;
+  position: relative;
+}
+
+.contentsTitle::after {
+  display: block;
+  content: '';
+  width: 35px;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  bottom: -7px;
+  margin: 0 auto;
+  left: 49%;
+}
+.sub_TitleBar {
+border-bottom: 2px solid #e5e5e5;
+width: 100%;
+margin-bottom: 70px;
+}
+.sub_TitleBar_list {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* text-align: center; */
+}
+.sub_TitleBar_list li {
+  /* display: inline-block; */
+  margin-left: 50px;
+  padding: 0 30px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #373737;
+  height: 80px;
+  /* line-height: 2; */
+}
+.sub_TitleBar_list li a {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  align-items: center;
+}
+.sub_TitleBar_list li::after {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 3px;
+  /* bottom: -10px; */
+  background-color: #3275CB;
+}
+.sub_TitleBar_list li:nth-child(1)::after {
+  /* display: none; */
+}
+.sub_TitleBar_list li:nth-child(2)::after {
+  display: none;
+}
+.sub_TitleBar_list li:nth-child(3)::after {
+  display: none;
+}
+.sub_TitleBar_list li:nth-child(4)::after {
+  display: none;
+}
+
+.contentsTitle_des {
+  margin-bottom: 120px;
+  font-size: 21px;
+  line-height: 1.5;
+}
+
+.contentsListTitle {
+  color: #3275CB;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.board-contents-section .title {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.board_list {
+  border-top: 2px solid #3275CB;
+  border-bottom: 1px solid #ddd;
+  /* margin-bottom: 20px; */
+}
+.board_list .info {
+  border-bottom: 1px solid #ddd;
+}
+.board_list dl {
+  display: inline-block;
+}
+.board_list dt,
+.board_list dd {
+  display: inline-block;
+}
+.board_list dt {
+  background: #e5e5e5;
+  padding: 10px 75px;
+  font-weight: 600;
+}
+.board_list dd {
+  padding-left: 10px;
+  padding-right: 120px;
+  text-align: left;
+}
+.board_list .cont {
+  padding: 20px;
+}
+.board-contents-section .btn {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 1350px;
+}
+
+.board-contents-section .btn a {
+  padding: 10px 30px;
+  background: #3275CB;
+  color: #fff;
+}
+
+
+main{
+  width: 100%;
+}
+
+/* main */

@@ -1,0 +1,169 @@
+@import url(../reset.css);
+@import url(../header.css);
+@import url(../footer.css);
+
+.topImg {
+  background: url(../../images/common/companyInfo.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  text-indent: -9999px;
+  background-position: center;
+}
+
+.contents .inner {
+  max-width: 1500px;
+  margin: 0 auto; 
+}
+.contentsTitle {
+  font-size: 38px;
+  font-weight: 700;
+  margin: 60px 0;
+  text-align: center;
+  position: relative;
+}
+
+.contentsTitle::after {
+  display: block;
+  content: '';
+  width: 35px;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  bottom: -7px;
+  margin: 0 auto;
+  left: 49%;
+}
+.sub_TitleBar {
+border-bottom: 2px solid #e5e5e5;
+width: 100%;
+margin-bottom: 70px;
+}
+.sub_TitleBar_list {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* text-align: center; */
+}
+.sub_TitleBar_list li {
+  /* display: inline-block; */
+  margin-left: 50px;
+  padding: 0 30px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #373737;
+  height: 80px;
+  /* line-height: 2; */
+}
+.sub_TitleBar_list li a {
+  display: flex;
+  height: 100%;
+  cursor: pointer;
+  align-items: center;
+
+}
+.sub_TitleBar_list li::after {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 3px;
+  /* bottom: -10px; */
+  background-color: #3275CB;
+}
+.sub_TitleBar_list li:nth-child(1)::after {
+  display: none;
+}
+.sub_TitleBar_list li:nth-child(2)::after {
+  display: none;
+}
+.sub_TitleBar_list li:nth-child(3)::after {
+  /* display: none; */
+}
+
+.contentsTitle_des {
+  margin-bottom: 80px;
+  font-size: 21px;
+  line-height: 1.5;
+}
+
+
+.contentsListTitle {
+  color: #3275CB;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.contentsListTitle::after {
+  display: block;
+  content: '';
+  width: 35px;
+  height: 2px;
+  background-color: #3195d9; 
+  position: absolute;
+  bottom: -20px;
+}
+
+.contentsListTitle h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+.contentsListTitle_des {
+  font-size: 21px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+  width: 75%;
+  float: left;
+}
+.contentsListImg {
+  float: right;
+  width: 25%;
+  display: block;
+  /* margin: 0 auto; */
+}
+
+.contentsListItems ul {
+  font-size: 22px;
+  margin-bottom: 100px;
+  font-weight: 700;
+}
+
+.contentsListItems ul span {
+  display: block;
+  margin-bottom: 50px;
+  position: relative;
+}
+.contentsListItems ul span::after {
+  display: block;
+  content: '';
+  width: 35px;
+  height: 2px;
+  background-color: #3195d9; 
+  position: absolute;
+  bottom: -20px;
+}
+.contentsListItems ul li {
+  font-size: 17px;
+  list-style: disc;
+  margin-bottom: 30px;
+  font-weight: 300;
+  margin-left: 25px;
+}
+
+.contentsListItems ul:last-child>li:nth-of-type(4) {
+  line-height: 2;
+}
+
+
+figure img {
+  width: 250px;
+  margin-right: 10px;
+  margin-bottom: 260px;
+}
+
+
+main{
+  width: 100%;
+}
+
+/* main */

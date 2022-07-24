@@ -1,0 +1,235 @@
+@import url(../reset.css);
+@import url(../header.css);
+@import url(../footer.css);
+
+.topImg {
+  background: url(../../images/common/companyInfo.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  text-indent: -9999px;
+  background-position: center;
+}
+
+.contents .inner {
+  max-width: 1500px;
+  margin: 0 auto; 
+}
+.contentsTitle {
+  font-size: 38px;
+  font-weight: 700;
+  margin: 60px 0;
+  text-align: center;
+  position: relative;
+}
+
+.contentsTitle::after {
+  display: block;
+  content: '';
+  width: 35px;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  bottom: -7px;
+  margin: 0 auto;
+  left: 49%;
+}
+.sub_TitleBar {
+border-bottom: 2px solid #e5e5e5;
+width: 100%;
+margin-bottom: 70px;
+}
+.sub_TitleBar_list {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* text-align: center; */
+}
+.sub_TitleBar_list li {
+  /* display: inline-block; */
+  margin-left: 50px;
+  padding: 0 30px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #373737;
+  height: 80px;
+  /* line-height: 2; */
+}
+.sub_TitleBar_list li a {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  align-items: center;
+}
+.sub_TitleBar_list li::after {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 3px;
+  /* bottom: -10px; */
+  background-color: #3275CB;
+}
+.sub_TitleBar_list li:nth-child(1)::after {
+  /* display: none; */
+}
+.sub_TitleBar_list li:nth-child(2)::after {
+  display: none;
+}
+.sub_TitleBar_list li:nth-child(3)::after {
+  display: none;
+}
+.sub_TitleBar_list li:nth-child(4)::after {
+  display: none;
+}
+
+.contentsTitle_des {
+  margin-bottom: 120px;
+  font-size: 21px;
+  line-height: 1.5;
+}
+
+.contentsListTitle {
+  color: #3275CB;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+
+.util_area {
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+#total-count {
+  /* float: left; */
+  line-height: 35px;
+}
+#total-count em {
+  color: #3275CB;
+  font-style: normal;
+}
+.search-area {
+  display: flex;
+}
+.search-area .select {
+  width: 80px;
+  position: relative;
+  margin-right: 10px;
+}
+.search-area .all {
+  display: block;
+  height: 35px;
+  width: 100%;
+  font-style: normal;
+  border: 1px solid #ddd;
+  line-height: 30px;
+  padding-left: 10px;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+.search-area i {
+  position: absolute;
+  right: 10%;
+  top: 25%;
+}
+.select select {
+  width: 100%;
+  height: 35px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.search-area .input input {
+  width: 200px;
+  height: 35px;
+  border: 1px solid #e5e5e5;
+  outline: none;
+  box-sizing: border-box;
+  margin-right: 5px;
+}
+
+.search-area button {
+  width: 80px;
+  height: 35px;
+  background-color: #3275CB;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.board_lists {
+  border-top: 2px solid #333ccc;
+  text-align: center;
+}
+
+.board_lists > div {
+  font-size: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.board_lists > div > div {
+  display: inline-block;
+  font-size: 1.2rem;
+  padding: 15px 0;
+}
+.board_lists .top {
+  background: #e5e5e5;
+  font-weight: 600;
+}
+.board_lists .num {
+  width: 10%;
+  border-right: 1px solid #ddd;
+  box-sizing:border-box;
+}
+.board_lists .division {
+  width: 10%;
+  border-right: 1px solid #ddd;
+  box-sizing:border-box;
+}
+.board_lists .contents {
+  width: 40%;
+  text-align: left;
+  border-right: 1px solid #ddd;
+  padding-left: 25px;
+  box-sizing:border-box;
+}
+.board_lists .contents:hover {
+  text-decoration: underline;
+}
+.board_lists .top .contents {
+  text-align: center;
+}
+.board_lists .top .contents:hover {
+  text-decoration: none;
+}
+.board_lists .period {
+  width: 20%;
+  border-right: 1px solid #ddd;
+  box-sizing:border-box;
+}
+.board_lists .situation {
+  width: 20%;
+}
+
+.board_page {
+  margin-top: 50px;
+  margin-bottom: 1100px;
+  text-align: center;
+}
+
+.board_page a {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+
+main{
+  width: 100%;
+}
+
+/* main */
