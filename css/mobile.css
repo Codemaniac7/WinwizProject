@@ -17,8 +17,7 @@
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-  }
-  
+  }  
   
   header .gnb-list {
     position: absolute;
@@ -55,7 +54,6 @@
     visibility: visible;
   }
   
-  
   header .sub-gnb li {
     margin-left: 30px;
   
@@ -74,12 +72,10 @@
     display: block;
   }
   
-  
-  
   #menu-btn {
     position: absolute;
     top: 48px;
-    left: 30px;
+    left: 25px;
     cursor: pointer;
     z-index: 100;
   }
@@ -141,6 +137,17 @@
 
   figure img{
     width: 15%;
-    margin-right: 10px;
+    margin-rght: 10px;
     margin-bottom: 150px;
   }
+
+
+  .sub_TitleBar_list li {
+    font-size: 13px;
+  }
+
+  .search-area .input input {
+    width: 100px;
+  }
+
+ 
