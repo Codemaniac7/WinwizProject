@@ -176,6 +176,9 @@ margin-bottom: 70px;
   margin-bottom: 80px;
 }
 
+.login-area form {
+  min-width: 350px;
+}
 
 main{
   width: 100%;

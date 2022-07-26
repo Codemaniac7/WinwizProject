@@ -70,10 +70,10 @@
   }
   
   .sub_TitleBar_list li:nth-child(1)>a::after {
-    display: none;
+    /* display: none; */
   }
   .sub_TitleBar_list li:nth-child(2)>a::after {
-    /* display: none; */
+    display: none;
   }
   .sub_TitleBar_list li:nth-child(3)>a::after {
     display: none;
@@ -162,6 +162,8 @@
 .board_lists {
   border-top: 2px solid #333ccc;
   text-align: center;
+  /* white-space: nowrap; */
+  /* overflow-x: scroll; */
 }
 
 .board_lists > div {

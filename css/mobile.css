@@ -127,6 +127,8 @@
   .contentsListTitle_des {
     width: 100%;
   }
+
+
   
   .contentsListImg {
     width: 50%;
@@ -142,6 +144,16 @@
   }
 
 
+  .contentsTitle_des {
+    font-size: 16px;
+  }
+
+  .board-section {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
   .sub_TitleBar_list li {
     font-size: 13px;
   }
@@ -150,4 +162,107 @@
     width: 100px;
   }
 
- 
+  .board_lists {
+    white-space: nowrap;
+    min-width: 300px;
+    overflow-x: scroll;
+    box-sizing: border-box;
+  }
+  .board_lists .top {
+    width: 100%;
+    /* overflow-x: scroll; */
+  }
+
+  .board_lists .num {
+    border-right: 0;
+    font-size: 12px;
+  }
+  .board_lists .division {
+    border-right: 0;
+    font-size: 12px;
+  }
+  .board_lists .contents {
+    border-right: 0;
+    font-size: 12px;
+    width: 70%;
+  }
+  .board_lists .period {
+    border-right: 0;
+    font-size: 12px;
+    width: 50%;
+    display: none;
+  }
+  .board_lists .situation {
+    font-size: 12px;
+    display: none;
+  }
+
+  .board_page {
+    font-size: 10px;
+  }
+
+  .contentsListTitle .rank-list div {
+    padding: 10px 20px;
+  }
+
+  .contentsListTitle.rank>h2+span {
+    font-size: 10px;
+  }
+
+  .board_apply_wrap {
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 330px;
+  }
+
+  .board_apply_wrap dt {
+    text-align: left;
+    text-indent: 10px;
+  }
+
+  .board_apply_wrap dt:first-child {
+    font-size: 15px;
+  }
+
+  .board_apply_wrap input[type="text"] {
+    width: 120px;
+  }
+
+  .resume > label {
+    padding: 2px 5px;
+  }
+
+
+  .board-contents-section .applyBtn {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .board-contents-section .applyBtn a {
+    padding: 3px 20px;
+  }
+
+
+  .board_qa_wrap {
+    white-space: nowrap;
+    width: 100%;
+  }
+
+  .board_qa_wrap dl {
+    width: 100%;
+    display: block;
+  }
+
+  .board_qa_wrap dt {
+    width: 80%;
+    font-size: 15px;
+  }
+  .board_qa_wrap .qatitle dt,
+   .board_qa_wrap .contents dt,
+   .board_qa_wrap .file dt {
+    width: 40%;
+   }
+
+   .login-input-area {
+    padding: 100px;
+   }
