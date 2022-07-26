@@ -264,5 +264,13 @@
    }
 
    .login-input-area {
-    padding: 100px;
+    padding: 30px 0px;
+   }
+
+   .login-input-area form {
+    width: 100%;
+   }
+
+   .login-input-area input {
+    width: auto;
    }
