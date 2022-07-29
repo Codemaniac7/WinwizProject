@@ -5,24 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>윈위즈</title>
-    <link rel="stylesheet" href="./css/Recruit_css/Recruit_fourthPage.css" />
-    <link rel="apple-touch-icon" href="images/common/favicon.png" />
-    <link rel="icon" href="images/common/favicon.png" />
+    <link rel="apple-touch-icon" href="../../images/common/favicon.png" />
+    <link rel="icon" href="../../images/common/favicon.png" />
     <script
     src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
     crossorigin="anonymous"
   ></script>
     <script
-      src="https://kit.fontawesome.com/f56809b13d.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      media="(max-width: 1024px)"
-      href="./css/medium.css"
-    />
-    <link rel="stylesheet" media="(max-width: 768px)" href="./css/mobile.css" />
+    src="https://kit.fontawesome.com/f56809b13d.js"
+    crossorigin="anonymous"
+  ></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../../css/Solution_css/Solution_secondPage.css" />
+    <link rel="stylesheet" media="(max-width: 1024px)" href="../../css/medium.css">
+    <link rel="stylesheet" media="(max-width: 768px)" href="../../css/mobile.css">
   </head>
   <body>
     <div class="black-bg">
@@ -44,7 +42,7 @@
             <i class="fa-solid fa-xmark"></i>
           </p>
           <div class="gnb-list">
-            <li class>
+            <li class="title-menu" data-num='0' >
               <a href="#" class="tit"><span>기업정보</span></a>
               <ul class="sub-gnb">
                 <li><a href="#">회사개요</a></li>
@@ -55,7 +53,7 @@
                 <li><a href="#">홍보센터</a></li>
               </ul>
             </li>
-            <li class>
+            <li class="title-menu" data-num='1'>
               <a href="#" class="tit"><span>사업분야</span></a>
               <ul class="sub-gnb">
                 <li><a href="#">사업영역</a></li>
@@ -64,28 +62,28 @@
                 <li><a href="#">파트너사</a></li>
               </ul>
             </li>
-            <li class>
-              <a href="#" class="tit"><span>솔루션</span></a>
+            <li class="title-menu" data-num='2'>
+              <a href="#" class="tit" ><span>솔루션</span></a>
               <ul class="sub-gnb">
-                <li><a href="#">RMS</a></li>
-                <li><a href="#">POS</a></li>
-                <li><a href="#">WIZMALL</a></li>
+                <li><a href="solution_firstPage.html">RMS</a></li>
+                <li><a href="solution_secondPage.html">POS</a></li>
+                <li><a href="solution_fifthPage.html">WIZMALL</a></li>
               </ul>
             </li>
-            <li class>
-              <a href="#" class="tit"><span>인재채용</span></a>
+            <li class="title-menu" data-num='3' >
+              <a href="#" class="tit" ><span>인재채용</span></a>
               <ul class="sub-gnb">
-                <li><a href="#">채용안내</a></li>
-                <li><a href="#">인사시스템</a></li>
-                <li><a href="#">복리후생</a></li>
-                <li><a href="#">입사지원</a></li>
+                <li><a href="../recruit/recruit_firstPage.html">채용안내</a></li>
+                <li><a href="../recruit/recruit_thirdPage.html">인사시스템</a></li>
+                <li><a href="../recruit/recruit_fourthPage.html">복리후생</a></li>
+                <li><a href="../recruit/recruit_fifthPage.html">입사지원</a></li>
               </ul>
             </li>
-            <li class>
+            <li class="title-menu" data-num='4'>
               <a href="#" class="tit"><span>고객지원</span></a>
               <ul class="sub-gnb">
-                <li><a href="#">상담문의</a></li>
-                <li><a href="#">업체유지보수</a></li>
+                <li><a href="../customerService/CustomerService_firstPage.html">상담문의</a></li>
+                <li><a href="../customerService/CustomerService_secondPage.html">업체유지보수</a></li>
                 <li><a href="#">인트라넷</a></li>
               </ul>
             </li>
@@ -100,88 +98,91 @@
 
       <main class="main"></main>
 
-  
       <div class="contents">
         <figure>
-        <div class="topImg">topImg</div>
+          <div class="topImg">topImg</div>
+
         </figure>
 
         <div class="inner">
-          <h1 class="contentsTitle">Recruit</h1>
+          <h1 class="contentsTitle">Solution</h1>
 
           <div class="sub_TitleBar">
             <ul class="sub_TitleBar_list cf">
-              <li><a href="#">채용안내</a></li>
-              <li><a href="#">인사시스템</a></li>
-              <li><a href="#">복리후생</a></li>
-              <li><a href="#">입사지원</a></li>
+              <li><a href="solution_firstPage.html">RMS</a></li>
+              <li><a href="#">POS</a></li>
+              <li><a href="solution_fifthPage.html">WIZMALL</a></li>
             </ul>
-          </div>
-          <!--sub_TitleBar-->
+          </div><!--sub_TitleBar-->
+
           <div class="contentsTitle_des">
             <p>
-              사람의 됨됨이를 알고, 그 사람이 어디에서 어떤 일을 잘할지
-              아는회사, 꿈이 있는 직원들에게 가치 있는 회사이고 싶습니다.
+              업태 별 시스템을 표준화하고 최적화하며 신속한 서비스를
+              제공함으로써 고객의 효율적인 점포 운영을 지원하며, 다각화한
+              솔루션으로서
+              기업의 성장을 도모하는 기술적, 체계적, 조직적인 방안을 제공합니다.
             </p>
           </div>
 
+
+          <ul class="sub-depth-nav">
+            <li><a href="#">BAKERY</a></li>
+            <li><a href="solution_thirdPage.html">CVS</a></li>
+            <li><a href="solution_fourthPage.html">RESTAURANT</a></li>
+          </ul>
+
+
           <div class="contentsList">
             <div class="contentsListTitle">
-              <h2>복리후생 지원제도</h2>
+              <h2>베이커리 시스템</h2>
             </div>
-            <div class="contentsListTitle_des">
+            <div class="contentsListTitle_des cf">
               <p>
-                전 임직원의 복리 증진 및 풍요로운 삶을 위해 다양한 지원제도를 운영하고 있습니다.
+                베이커리 매장관리 시스템으로, 구매, 영업, 재고, 회계관리까지 다양한 업무를 효과적으로 운영할 수 있는
+                시스템입니다.
               </p>
+            <img src="../../images/common/bakery.png" class="contentsListImg"></img>
+
             </div>
-            <img src="./images/common/recruitFourthImg.png" class="contentsListImg"></img>
 
             <div class="contentsListItems">
-              <ul><span>직원경조사비 지원</span>
-                <li>생일, 결혼, 출산, 칠순, 상조 등 경조사 발생시 축하금, 위로금 지급 및 화환 지원</li>
+              <ul><span>특징 및 장점</span>
+                <li>신상품 코드를 공유서버를 이용하여 자동지원 받음</li>
+                <li>품범이 없는 제품을 위한 다양한 품번 부여 및 바코드 발행이 가능, 고객별 다양한 단가 적용 판매</li>
+                <li>도매, 납품단가를 파악하는 기능과 거래명세서, 세금계산서 출력 및 집계 가능</li>
+                <li>고객별 누적 포인트별로 매출할인 또는 서비스 품목을 제공</li>
+                <li>입고 작업시 입고처별 해당품번의 직전 입고단가를 자동확인</li>
               </ul>
-              <ul><span>임직원 건강 검진</span>
-                <li>50대 이상 매년, 50대 미만 격년으로 건강검진 실시(단, 근속년수 1년 이상자부터 해당)</li>
-                  </ul>
             
-              <ul><span>휴양시설 이용</span>
-                <li>유명 콘도 등을 저렴하게 이용할 수 있도록 휴양시설 운영</li>
+              <ul><span>주요기능</span>
+                <li>기초자료관리 - 거래처관리,품목관리입고처관리,회원관리,계정과목관리,사용자환경설정</li>
+                <li>구매관리 - 매입견적서,매입명세서,매입채무현황,매입처원장,거래처별 매입집계,기간지불내역,기간별 매입현황</li>
+                <li>영업관리 - 입고처별 판매현황,분류별 판매현황, 입고처별 입출고현황,회원별판매현황,기간별 분류별 매출이익,기간별 매출순위</li>
+                <li>재고관리 - 재고현황,부족재고현황,재고조정현황,기준일자 재고현황</li>
+                <li>회계관리 - 회계전표(입금전표,출금전표,대체출금),분계장관리,세금계산서관리,일일보고서 재무제표,현금흐름표</li>
               </ul>
-
-              <ul><span>회사 행사</span>
-                <li>체육대회, 워크샵, 문화의날 행사 진행</li>
-              </ul>
-
-              <ul><span>퇴직연금 제도 운영</span>
-                <li>은행 예탁으로 운영</li>
-              </ul>
-
-              <ul><span>휴게공간 이용</span>
-                <li>간식 및 커피, 차 제공</li>
-              </ul>
-              <ul><span>장기근속 포상</span>
-                <li>군속 7,10,15년 순금코인 포상/20,25,30년 별도 포상</li>
-              </ul>
-              <ul><span>우수사원포상</span>
-                <li>탁월한 업무역량 및 인성평가에 따른 포상금 지원</li>
-              </ul>
-              <ul><span>명절 선물 지급</span>
-                <li>추석,설 명절 선물 지급</li>
-              </ul>
-            </div><!--contentsListItems-->
+            </div>
           
-     
-     
-          </div><!--contentsList-->
+            <figure>
+              <img src="../../images/common/b1.png" alt="1img">
+              <img src="../../images/common/b2.png" alt="2img">
+              <img src="../../images/common/b3.png" alt="3img">
+              <img src="../../images/common/b4.png" alt="4img">
+              <img src="../../images/common/b5.png" alt="5img">
+            </figure>
+          </div>
+         
+
         </div>
         <!--inner-->
       </div>
-      <!--contents-->      
+      <!--contents-->
 
       <!-- FOOTER -->
       <footer>
-        <div class="bottom-menu">
-          <div class="inner">
+          <div class="bottom-menu">
+        <div class="inner">
+
             <ul class="btnM-list">
               <li>
                 <a href="#">기업정보</a>
@@ -235,7 +236,7 @@
           <div class="inner">
             <ul class="footer-icon">
               <li class="bottom-img">
-                <img src="./images/common/bottom_logo.png" />
+                <img src="../../images/common/bottom_logo.png" />
               </li>
               <li class="bottom-text">
                 <p>
@@ -245,7 +246,7 @@
                 <p>COPYRIHT&copy; 2020 WINWIZ Co.,Ltd. ALL RIGTHS RESERVED</p>
               </li>
               <li class="bottom-icon">
-                <img src="./images/common/bottom_icon.png" />
+                <img src="../../images/common/bottom_icon.png" />
               </li>
             </ul>
           </div>
@@ -253,7 +254,8 @@
         </div>
       </footer>
     </div>
-  <script src="header.js" >  </script>
-    
+
+ <script src="../../header.js">
+    </script>
   </body>
 </html>

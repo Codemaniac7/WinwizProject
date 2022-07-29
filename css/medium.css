@@ -13,10 +13,22 @@ header .logo a {
   background-position: center;
 }
 
+
+.contentsTitle_des {
+  font-size: 18px;
+  margin-left: 20px;
+  text-indent: 10px;
+}
+
 figure img {
   margin-bottom: 300px;
 }
 
-
+.board_list dl {
+  width: 100%;
+}
+.board_list dt {
+  width: 30%;
+}
 
 

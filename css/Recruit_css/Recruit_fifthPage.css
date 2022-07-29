@@ -47,7 +47,7 @@
   }
   .sub_TitleBar_list li {
     float: left;
-    width: calc(24.99%);
+    width: 24.99%;
     font-size: 22px;
     font-weight: 600;
     color: #373737;
@@ -76,8 +76,27 @@
   .sub_TitleBar_list li:nth-child(3)>a::after {
     display: none;
   }
-.sub_TitleBar_list li:nth-child(4)>a::after {
-  /* display: none; */
+
+.sub_TitleBar_list li:nth-child(1)>a:hover::after {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 3px;
+  background-color: #3275CB;
+}
+.sub_TitleBar_list li:nth-child(2)>a:hover::after {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 3px;
+  background-color: #3275CB;
+}
+.sub_TitleBar_list li:nth-child(3)>a:hover::after {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 3px;
+  background-color: #3275CB;
 }
 
 .contentsTitle_des {
@@ -98,7 +117,7 @@
 }
 
 .board_apply_wrap {
-  padding: 120px 360px;
+  display: block;
   border: 1px solid #ddd;
   border-top: 2px solid #3275CB;
   margin-bottom: 1300px;
@@ -119,9 +138,6 @@
   margin-left: 10px;
 }
 
-.board_apply_wrap dd {
-  /* vertical-align: middle; */
-}
 
 .resume > label {
   background: #3275CB;
@@ -129,6 +145,14 @@
   text-align: center;
   padding: 3px 10px;
   vertical-align: middle;
+}
+
+.apply-area {
+  width: 30%;
+  min-width: 500px;
+  padding: 100px 0;
+  display: block;
+  margin: 0 auto;  
 }
 
 #category {
@@ -142,23 +166,34 @@ border: 1px solid #ddd;
 }
 
 .board_apply_wrap input[type="file"] {
-  display: none;
+  width: 50%;
+  display: block;
+  margin: 0 50%;
+}
+input::file-selector-button {
+  background: #fff;
+  border: none;
+  color: #fff;
+  text-align: right;
+  padding: 3px 10px;
+  vertical-align: middle;
+  width: 1px;
 }
 
-.board-contents-section .applyBtn {
+
+.board-contents-section #applyBtn {
+  display: block;
+  margin: 0 auto;
   text-align: center;
   margin-top: 30px;
-  /* margin-bottom: 350px; */
+  border: #ddd;
 }
 
-.board-contents-section .applyBtn a {
+.board-contents-section #applyBtn {
   padding: 10px 100px;
   background: #3275CB;
   color: #fff;
 }
-
-
-
 
 main{
   width: 100%;

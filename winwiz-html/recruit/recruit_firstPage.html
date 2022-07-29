@@ -5,9 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>윈위즈</title>
-    <link rel="stylesheet" href="./css/Recruit_css/Recruit_firstPage.css" />
-    <link rel="apple-touch-icon" href="images/common/favicon.png" />
-    <link rel="icon" href="images/common/favicon.png" />
+    <link rel="apple-touch-icon" href="../../images/common/favicon.png" />
+    <link rel="icon" href="../../images/common/favicon.png" />
     <script
     src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
@@ -17,8 +16,11 @@
       src="https://kit.fontawesome.com/f56809b13d.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" media="(max-width: 1024px)" href="./css/medium.css">
-    <link rel="stylesheet" media="(max-width: 768px)" href="./css/mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../../css/Recruit_css/Recruit_firstPage.css" />
+    <link rel="stylesheet" media="(max-width: 1024px)" href="../../css/medium.css">
+    <link rel="stylesheet" media="(max-width: 768px)" href="../../css/mobile.css">
   </head>
   <body>
     <div class="black-bg">
@@ -40,7 +42,7 @@
             <i class="fa-solid fa-xmark"></i>
           </p>
           <div class="gnb-list">
-            <li class>
+            <li class="title-menu" data-num='0' >
               <a href="#" class="tit"><span>기업정보</span></a>
               <ul class="sub-gnb">
                 <li><a href="#">회사개요</a></li>
@@ -51,7 +53,7 @@
                 <li><a href="#">홍보센터</a></li>
               </ul>
             </li>
-            <li class>
+            <li class="title-menu" data-num='1'>
               <a href="#" class="tit"><span>사업분야</span></a>
               <ul class="sub-gnb">
                 <li><a href="#">사업영역</a></li>
@@ -60,28 +62,28 @@
                 <li><a href="#">파트너사</a></li>
               </ul>
             </li>
-            <li class>
-              <a href="#" class="tit"><span>솔루션</span></a>
+            <li class="title-menu" data-num='2'>
+              <a href="#" class="tit" ><span>솔루션</span></a>
               <ul class="sub-gnb">
-                <li><a href="#">RMS</a></li>
-                <li><a href="#">POS</a></li>
-                <li><a href="#">WIZMALL</a></li>
+                <li><a href="../solution/solution_firstPage.html">RMS</a></li>
+                <li><a href="../solution/solution_secondPage.html">POS</a></li>
+                <li><a href="../solution/solution_fifthPage.html">WIZMALL</a></li>
               </ul>
             </li>
-            <li class>
-              <a href="#" class="tit"><span>인재채용</span></a>
+            <li class="title-menu" data-num='3' >
+              <a href="#" class="tit" ><span>인재채용</span></a>
               <ul class="sub-gnb">
-                <li><a href="#">채용안내</a></li>
-                <li><a href="#">인사시스템</a></li>
-                <li><a href="#">복리후생</a></li>
-                <li><a href="#">입사지원</a></li>
+                <li><a href="recruit_firstPage.html">채용안내</a></li>
+                <li><a href="recruit_thirdPage.html">인사시스템</a></li>
+                <li><a href="recruit_fourthPage.html">복리후생</a></li>
+                <li><a href="recruit_fifthPage.html">입사지원</a></li>
               </ul>
             </li>
-            <li class>
+            <li class="title-menu" data-num='4'>
               <a href="#" class="tit"><span>고객지원</span></a>
               <ul class="sub-gnb">
-                <li><a href="#">상담문의</a></li>
-                <li><a href="#">업체유지보수</a></li>
+                <li><a href="../customerService/CustomerService_firstPage.html">상담문의</a></li>
+                <li><a href="../customerService/CustomerService_secondPage.html">업체유지보수</a></li>
                 <li><a href="#">인트라넷</a></li>
               </ul>
             </li>
@@ -105,10 +107,10 @@
 
           <div class="sub_TitleBar">
             <ul class="sub_TitleBar_list cf">
-              <li><a href="#">채용안내</a></li>
-              <li><a href="#">인사시스템</a></li>
-              <li><a href="#">복리후생</a></li>
-              <li><a href="#">입사지원</a></li>
+              <li><a href="recruit_firstPage.html">채용안내</a></li>
+              <li><a href="recruit_thirdPage.html">인사시스템</a></li>
+              <li><a href="recruit_fourthPage.html">복리후생</a></li>
+              <li><a href="recruit_fifthPage.html">입사지원</a></li>
             </ul>
           </div>
           <!--sub_TitleBar-->
@@ -326,7 +328,7 @@
           <div class="inner">
             <ul class="footer-icon">
               <li class="bottom-img">
-                <img src="./images/common/bottom_logo.png" />
+                <img src="../../images/common/bottom_logo.png" />
               </li>
               <li class="bottom-text">
                 <p>
@@ -336,7 +338,7 @@
                 <p>COPYRIHT&copy; 2020 WINWIZ Co.,Ltd. ALL RIGTHS RESERVED</p>
               </li>
               <li class="bottom-icon">
-                <img src="./images/common/bottom_icon.png" />
+                <img src="../../images/common/bottom_icon.png" />
               </li>
             </ul>
           </div>
@@ -345,6 +347,6 @@
       </footer>
     </div>
 
-  <script src="header.js"></script>
+  <script src="../../header.js"></script>
   </body>
 </html>
