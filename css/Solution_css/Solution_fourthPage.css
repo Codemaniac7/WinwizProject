@@ -25,6 +25,25 @@
   position: relative;
 }
 
+.contentsTitle_des {
+  width: 85%;
+  font-size: 21px;
+  margin-bottom: 55px;
+}
+
+.contentsListTitle_des {
+  margin-bottom: 50px;
+  width: 100%;
+  position: relative;
+}
+.contentsListTitle_des p {
+  font-size: 21px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+  width: 70%;
+  float: left;
+}
+
 .contentsTitle::after {
   display: block;
   content: '';
@@ -55,15 +74,19 @@
     height: 50px;
     line-height: 2.2;
     box-sizing: border-box;
-    cursor: pointer;
   }
   .sub_TitleBar_list li a {
     display: inline-block;
+    line-height: 50px;
+    width: 100%;
+    position: relative;
   }
   .sub_TitleBar_list li a::after {
+    position: absolute;
+    left: 35%;
     display: block;
     content: '';
-    width: 100%;
+    width: 30%;
     height: 3px;
     background-color: #3275CB;
   }
@@ -77,12 +100,25 @@
   .sub_TitleBar_list li:nth-child(3)>a::after {
     display: none;
   }
-.contentsTitle_des {
-  margin-bottom: 80px;
-  font-size: 21px;
-  line-height: 1.5;
-}
-
+  .contentsListTitle_des {
+    margin-bottom: 50px;
+    width: 100%;
+    position: relative;
+  }
+  .contentsListTitle_des p {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    width: 70%;
+    float: left;
+  }
+  .contentsListImg {
+    float: right;
+    width: 25%;
+    display: block;
+    position: absolute;
+    right: 0;
+  }
 .sub-depth-nav {
   display: table;
   width: 100%;
@@ -93,9 +129,14 @@
 }
 .sub-depth-nav li {
   display: table-cell;
-  padding: 1.5em 0;
   font-weight: 600;
   text-align: center;
+}
+.sub-depth-nav li a {
+  display: block;
+  width: 100%;
+  padding: 1.5em 0;
+  box-sizing: border-box;
 }
 .sub-depth-nav li:first-child {
   border-right: 1px solid #e5e5e5;
@@ -128,19 +169,8 @@
   font-size: 28px;
   font-weight: 600;
 }
-.contentsListTitle_des {
-  font-size: 21px;
-  line-height: 1.5;
-  margin-bottom: 50px;
-  width: 75%;
-  float: left;
-}
-.contentsListImg {
-  float: right;
-  width: 25%;
-  display: block;
-  /* margin: 0 auto; */
-}
+
+
 
 .contentsListItems ul {
   font-size: 22px;

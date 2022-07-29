@@ -145,6 +145,7 @@ margin-bottom: 70px;
 .board_qa_wrap .writer,
 .board_qa_wrap .address {
   font-size: 0;
+  white-space: nowrap;
 }
 
 .board_qa_wrap .qaclassify dl,

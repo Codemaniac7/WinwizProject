@@ -27,6 +27,7 @@
   position: relative;
 }
 
+
 .contentsTitle::after {
   display: block;
   content: '';
@@ -61,15 +62,19 @@
   }
   .sub_TitleBar_list li a {
     display: inline-block;
+    line-height: 50px;
+    width: 100%;
+    position: relative;
   }
   .sub_TitleBar_list li a::after {
+    position: absolute;
+    left: 35%;
     display: block;
     content: '';
-    width: 100%;
+    width: 30%;
     height: 3px;
     background-color: #3275CB;
   }
-  
   .sub_TitleBar_list li:nth-child(1)>a::after {
     display: none;
   }
@@ -79,12 +84,26 @@
   .sub_TitleBar_list li:nth-child(3)>a::after {
     display: none;
   }
-.contentsTitle_des {
-  margin-bottom: 80px;
-  font-size: 21px;
-  line-height: 1.5;
-}
-
+  .contentsListTitle_des {
+    margin-bottom: 50px;
+    width: 100%;
+    position: relative;
+  }
+  .contentsListTitle_des p {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    width: 70%;
+    float: left;
+  }
+  .contentsListImg {
+    float: right;
+    width: 25%;
+    display: block;
+    position: absolute;
+    right: 0;
+  }
+  
 
 .contentsListTitle {
   color: #3275CB;
@@ -106,19 +125,7 @@
   font-size: 28px;
   font-weight: 600;
 }
-.contentsListTitle_des {
-  font-size: 21px;
-  line-height: 1.5;
-  margin-bottom: 50px;
-  width: 75%;
-  float: left;
-}
-.contentsListImg {
-  float: right;
-  width: 25%;
-  display: block;
-  /* margin: 0 auto; */
-}
+
 
 .contentsListItems ul {
   font-size: 22px;

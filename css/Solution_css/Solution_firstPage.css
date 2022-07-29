@@ -75,6 +75,7 @@ margin-bottom: 70px;
 }
 
 .contentsTitle_des {
+  width: 85%;
   margin-bottom: 80px;
   font-size: 21px;
   line-height: 1.5;
@@ -100,16 +101,23 @@ margin-bottom: 70px;
   font-weight: 600;
 }
 .contentsListTitle_des {
+  margin-bottom: 50px;
+  width: 100%;
+  position: relative;
+}
+.contentsListTitle_des p {
   font-size: 21px;
   line-height: 1.5;
   margin-bottom: 50px;
-  width: 75%;
+  width: 70%;
   float: left;
 }
 .contentsListImg {
   float: right;
   width: 25%;
   display: block;
+  position: absolute;
+  right: 0;
 }
 
 .contentsListItems ul {

@@ -52,7 +52,7 @@
     font-weight: 600;
     color: #373737;
     height: 50px;
-    line-height: 2.2;
+    line-height: 50px;
     box-sizing: border-box;
     cursor: pointer;
   }
@@ -107,6 +107,7 @@
 }
 .board_list dl {
   display: inline-block;
+  /* width: 100%; */
 }
 .board_list dt,
 .board_list dd {
@@ -116,6 +117,7 @@
   background: #e5e5e5;
   padding: 10px 75px;
   font-weight: 600;
+  /* width: 30%; */
 }
 .board_list dd {
   padding-left: 10px;

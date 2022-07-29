@@ -144,18 +144,35 @@
   }
 
 
-  .contentsTitle_des {
-    font-size: 16px;
+  .contentsListImg {
+    position: initial;
   }
 
+  .contentsTitle_des {
+    font-size: 17px;
+  }
+  .contentsListTitle_des p {
+    font-size: 17px;
+  }
+
+  .contentsListItems > ul {
+    font-size: 18px;
+  }
+/* 
   .board-section {
     width: 100%;
     padding: 0 20px;
     box-sizing: border-box;
-  }
+  } */
+
+  /* .util_area {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  } */
 
   .sub_TitleBar_list li {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .search-area .input input {
@@ -164,7 +181,6 @@
 
   .board_lists {
     white-space: nowrap;
-    min-width: 300px;
     overflow-x: scroll;
     box-sizing: border-box;
   }
@@ -202,7 +218,7 @@
   }
 
   .contentsListTitle .rank-list div {
-    padding: 10px 20px;
+    padding: 10px;
   }
 
   .contentsListTitle.rank>h2+span {
@@ -282,4 +298,26 @@
    }
    .login-area p {
     margin-bottom: 50px;
+   }
+   .board_list {
+    width: 100%;
+   }
+
+   .board_list dl {
+    width: 100%;
+   }
+
+   .board_list dt {
+    /* display: block; */
+    width: 15%;
+    padding: 10px 20px;
+    min-width: 100px;
+    /* text-align: center; */
+   }
+   .board_list dd {
+    height: 30px;
+    font-size: 15px;
+    line-height: 2;
+    padding-right: 0;
+    min-width: 200px;
    }

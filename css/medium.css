@@ -18,5 +18,9 @@ figure img {
 }
 
 
-
-
+.board_list dl {
+  width: 100%;
+}
+.board_list dt {
+  width: 30%;
+}
