@@ -36,9 +36,9 @@
   position: relative;
 }
 .contentsListTitle_des p {
-  font-size: 21px;
-  line-height: 1.5;
-  margin-bottom: 50px;
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 90px;
   width: 70%;
   float: left;
 }
@@ -206,10 +206,6 @@
 
 .contentsListItems ul:last-child > li:nth-of-type(4) {
   line-height: 2;
-}
-
-.sfour_ImgList {
-  margin-bottom: 290px;
 }
 
 figure img {

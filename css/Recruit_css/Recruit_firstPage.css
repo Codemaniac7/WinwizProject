@@ -173,6 +173,10 @@
   margin-right: 5px;
 }
 
+.board-section {
+  margin-bottom: 50px;
+}
+
 .search-area button {
   width: 80px;
   height: 35px;
@@ -248,7 +252,6 @@
 
 .board_page {
   margin-top: 50px;
-  margin-bottom: 1100px;
   text-align: center;
 }
 

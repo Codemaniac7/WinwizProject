@@ -27,6 +27,7 @@
   position: relative;
 }
 
+
 .contentsTitle::after {
   display: block;
   content: "";
@@ -172,9 +173,6 @@
   line-height: 2;
 }
 
-.sfif_ImgList {
-  margin-bottom: 260px;
-}
 
 figure img {
   width: 15%;

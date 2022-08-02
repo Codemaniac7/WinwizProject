@@ -107,12 +107,16 @@
     text-indent: 10px;
 }
 
+
+
+
+
 .login-area {
     border-top: 2px solid #3275CB;
     font-size: 0;
     width: 100%;
   border-bottom: 1px solid #ddd;
-  margin-bottom: 1300px;
+  margin-bottom: 100px;
 }
 
 form> p {
@@ -204,6 +208,8 @@ form> p {
 .login-button-area {
   width: 100%;
 }
+
+
 
 main{
   width: 100%;

@@ -105,8 +105,8 @@
 
 .contentsTitle_des {
   margin-bottom: 120px;
-  font-size: 21px;
-  line-height: 1.5;
+  font-size: 17px;
+  line-height: 1.7;
 }
 
 .contentsListTitle h2{
@@ -133,6 +133,9 @@
   width: 75%;
   float: left;
 }
+
+
+
 .contentsListImg {
   float: right;
   width: 25%;

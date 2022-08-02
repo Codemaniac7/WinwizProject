@@ -124,6 +124,7 @@
 }
 .board_list dl {
   display: inline-block;
+  /* width: 100%; */
 }
 .board_list dt,
 .board_list dd {
@@ -143,10 +144,14 @@
 .board_list .cont {
   padding: 20px;
 }
+
+.board-contents-section {
+  margin-bottom: 30px;
+}
+
 .board-contents-section .btn {
   text-align: center;
   margin-top: 30px;
-  margin-bottom: 1350px;
 }
 
 .board-contents-section .btn a {

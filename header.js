@@ -57,3 +57,28 @@ contentList.addEventListener("click", (e) => {
 });
 
 
+
+(function(window, document){
+  'use strict';
+
+  const $gnbList = document.querySelectorAll('.gnb-list');  // NodeList
+  const $menuBtn = document.getElementById('menu-btn');
+
+  window.addEventListener('resize', function() {
+    console.log(window.innerWidth)
+      if (window.innerWidth > 1024) {
+        offElements();
+      }
+  });
+
+  function offElements() {
+    console.log('offElements');
+
+      [].forEach.call($gnbList, function(toggle) {
+        toggle.classList.remove('menuOn');
+        $("#close-btn").removeClass("show");
+        $("#menu-btn").show();
+      });
+  }
+  
+})(window, document)

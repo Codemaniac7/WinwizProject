@@ -215,6 +215,7 @@ figure img {
 
 .contentsListTitle .rank-list div {
   padding: 10px;
+  text-indent: 0;
 }
 
 .contentsListTitle.rank > h2 + span {
