@@ -13,7 +13,7 @@ header .gnb h1 {
 }
 
 header .logo a {
-  background: url(../../winwiz-project/images/common/top_logoW.png);
+  background: url(../images/common/top_logoW.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -326,4 +326,37 @@ figure img {
 
 #category {
   padding: 0;
+}
+
+.footer-top {
+  height: 250px;
+}
+
+.footer-top li a {
+  color: #fff;
+  width: 100%;
+}
+.footer-top .inner>ul>li>a {
+  font-size: 15px;
+  display: block;
+  margin: 0;
+}
+.footer-top .inner>ul>li>ul>li>a {
+  display:block;
+  margin: 20px 0;
+  color: rgba(255,255,255,0.9);
+  font-size: 12px;
+}
+
+
+.footer-bottom .inner {
+  display: block;
+}
+
+.footer-bottom .leftImg {
+  width: 100%;
+}
+
+.footer-bottom .rightImg {
+  width: 100%;
 }

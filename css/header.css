@@ -63,7 +63,7 @@ header h1 {
 }
 
 header .logo a {
-  background: url(../../winwiz-project/images/common/top_logoW.png);
+  background: url(../images/common/top_logoW.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;

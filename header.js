@@ -65,14 +65,14 @@ contentList.addEventListener("click", (e) => {
   const $menuBtn = document.getElementById('menu-btn');
 
   window.addEventListener('resize', function() {
-    console.log(window.innerWidth)
+    // console.log(window.innerWidth)
       if (window.innerWidth > 1024) {
         offElements();
       }
   });
 
   function offElements() {
-    console.log('offElements');
+    // console.log('offElements');
 
       [].forEach.call($gnbList, function(toggle) {
         toggle.classList.remove('menuOn');

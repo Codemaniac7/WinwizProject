@@ -1,67 +1,67 @@
 
-footer{
-    width:100%;
-   }
-  footer .inner{
-    width: 100%;
-    max-width: 1500px;
-    margin: 0 auto;  
-  }
-  
-  .bottom-menu{
-    background: #3ea2f0;  
-    width: 100%; 
-    display: flex; 
-  }
-  .btnM-list{
-    margin: 10px 0px 30px ;
-    line-height: 30px;
-    width:100%;  
-    display: flex;
-    justify-content:space-between;
-    margin-right: 40px;
-  }
-  
-  .btnM-list>li>a{  
-    color: #fff;
-    font-size: 22px; 
-    line-height:70px;
-    
-  }
-  .btnM-list>li>a:hover{
-    font-weight: bold;
-  }
-  
-  .depth>li{
-    line-height: 32px;
-    
-  }
-  .depth>li>a{  
-    color: #ffff;
-    font-size: 15px;
-  
-  }
-  .depth>li>a:hover{
-    font-weight: bold;
-  }
-  .company-info{
-    width: 100%; 
-    height: 90px;
-  
-  }
-  .footer-icon{ 
-    margin:20px 0; 
-  }
-  .bottom-img{
-    float:left;
-    margin-right: 50px;
-  }
-  .bottom-text{
-    color: #000000;
-    font-size: 13px;
-    float: left;
-  }
-  .footer-icon .bottom-icon {
-    float: right;
-  }
-  
+footer {
+  width: 100%;
+}
+.footer-top {
+  width: 100%;
+  height: 330px;
+  background-color: rgb(62, 162, 240);
+  padding: 15px 0;
+  box-sizing: border-box;
+}
+.footer-top .inner {
+  width: 100%;
+  overflow: hidden;
+}
+.footer-top>.inner>ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-top>.inner>ul>li {
+  flex-basis: 150px;
+}
+
+.footer-top li a {
+  color: #fff;
+  width: 100px;
+}
+.footer-top .inner>ul>li>a {
+  font-size: 25px;
+  display: block;
+  margin: 30px 0px;
+}
+.footer-top .inner>ul>li>ul>li>a {
+  display:block;
+  margin: 15px 5px 0;
+  color: rgba(255,255,255,0.9);
+}
+.footer-bottom {
+  height: 110px;
+  background-color: #fff
+}
+.footer-bottom .inner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-bottom .leftImg {
+  background: url(../images/common/bottom_logo.png);
+  width: 200px;
+  height: 60%;
+  background-repeat: no-repeat;
+}
+.footer-bottom text {
+  display: block;
+}
+.footer-bottom span p {
+  font-size: 14px;
+}
+.footer-bottom .rightImg {
+  background: url(../images/common/bottom_icon.png);
+  width: 25%;
+  height: 60%;
+  background-repeat: no-repeat;
+  float:right;
+}
