@@ -1,7 +1,7 @@
 # winwizProject
 
 
- #### Header 부분
+#### Header 부분
 
 => position: fixed 적용하여 상단에 고정
 
